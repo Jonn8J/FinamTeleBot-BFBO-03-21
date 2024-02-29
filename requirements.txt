@@ -1,0 +1,15 @@
+pandas
+matplotlib
+tensorflow
+requests
+pytz
+grpcio
+protobuf
+types-protobuf
+googleapis-common-protos
+pyTelegramBotAPI
+keras
+numpy
+Pillow
+aiofiles
+aiogram

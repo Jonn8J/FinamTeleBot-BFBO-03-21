@@ -1,0 +1,3 @@
+user_id	client_id	api_key	ticker	security_board	trading_amount
+680374844	599046R8TST	CAEQ9YxnGhicmlz1kESW9gwB0W5G5bge5FSP2V3zl3k=	SBER	TQBR	35000.0
+1730551904	599046R8TST	CAEQ9YxnGhicmlz1kESW9gwB0W5G5bge5FSP2V3zl3k=	SBER	TQBR	50000.0

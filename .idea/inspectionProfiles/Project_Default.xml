@@ -1,0 +1,75 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="python" />
+            <item index="1" class="java.lang.String" itemvalue="backtrader" />
+            <item index="2" class="java.lang.String" itemvalue="python-telegram-bot" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="FinamPy.grpc.tradeapi.v1.candles_pb2.*" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._INTRADAYCANDLETIMEFRAME" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._DAYCANDLETIMEFRAME" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._DAYCANDLE" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._INTRADAYCANDLE" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._DAYCANDLEINTERVAL" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._INTRADAYCANDLEINTERVAL" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._GETDAYCANDLESREQUEST" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._GETDAYCANDLESRESULT" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._GETINTRADAYCANDLESREQUEST" />
+          <option value="FinamPy.proto.tradeapi.v1.candles_pb2._GETINTRADAYCANDLESRESULT" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._MARKET" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._BUYSELL" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._ORDERVALIDBEFORETYPE" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._RESPONSEEVENT" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._ERROR" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._ORDERVALIDBEFORE" />
+          <option value="FinamPy.proto.tradeapi.v1.common_pb2._DECIMAL" />
+          <option value="FinamPy.proto.tradeapi.v1.events_pb2._TIMEFRAME" />
+          <option value="FinamPy.proto.tradeapi.v1.events_pb2._SUBSCRIPTIONREQUEST" />
+          <option value="FinamPy.proto.tradeapi.v1.events_pb2.*" />
+          <option value="FinamPy.proto.tradeapi.v1.orders_pb2.*" />
+          <option value="FinamPy.proto.tradeapi.v1.portfolios_pb2.*" />
+          <option value="FinamPy.proto.tradeapi.v1.security_pb2.*" />
+          <option value="FinamPy.proto.tradeapi.v1.stops_pb2.*" />
+          <option value="FinamPy.grpc.tradeapi.v1.events_pb2.*" />
+          <option value="FinamPy.grpc.tradeapi.v1.orders_pb2.*" />
+          <option value="FinamPy.grpc.tradeapi.v1.portfolios_pb2.*" />
+          <option value="FinamPy.grpc.tradeapi.v1.securities_pb2.*" />
+          <option value="FinamPy.grpc.tradeapi.v1.stops_pb2.*" />
+          <option value="proto.tradeapi.v1.portfolios_pb2.*" />
+          <option value="grpc.tradeapi.v1.stops_pb2.*" />
+          <option value="proto.tradeapi.v1.candles_pb2.*" />
+          <option value="proto.tradeapi.v1.common_pb2.*" />
+          <option value="proto.tradeapi.v1.events_pb2.*" />
+          <option value="proto.tradeapi.v1.orders_pb2.*" />
+          <option value="proto.tradeapi.v1.security_pb2.*" />
+          <option value="proto.tradeapi.v1.stops_pb2.*" />
+          <option value="grpc.tradeapi.v1.candles_pb2.*" />
+          <option value="grpc.tradeapi.v1.events_pb2.*" />
+          <option value="grpc.tradeapi.v1.orders_pb2.*" />
+          <option value="grpc.tradeapi.v1.portfolios_pb2.*" />
+          <option value="grpc.tradeapi.v1.securities_pb2.*" />
+          <option value="FinamPy.FinamPy.*" />
+          <option value="candles_pb2_grpc" />
+          <option value="FinamPy.tradeapi" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

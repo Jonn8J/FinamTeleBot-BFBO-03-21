@@ -1,0 +1,66 @@
+C:\Users\SystemX\PycharmProjects\FinamTeleBot\venv\Scripts\python.exe C:\Users\SystemX\PycharmProjects\FinamTeleBot\4_check_predictions_by_neural_network.py
+2023-11-13 00:36:07.500065: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ rescaling (Rescaling)       (None, 128, 128, 3)       0
+
+ conv2d (Conv2D)             (None, 126, 126, 32)      896
+
+ max_pooling2d (MaxPooling2  (None, 63, 63, 32)        0
+ D)
+
+ batch_normalization (Batch  (None, 63, 63, 32)        128
+ Normalization)
+
+ conv2d_1 (Conv2D)           (None, 61, 61, 32)        9248
+
+ max_pooling2d_1 (MaxPoolin  (None, 30, 30, 32)        0
+ g2D)
+
+ batch_normalization_1 (Bat  (None, 30, 30, 32)        128
+ chNormalization)
+
+ conv2d_2 (Conv2D)           (None, 28, 28, 32)        9248
+
+ max_pooling2d_2 (MaxPoolin  (None, 14, 14, 32)        0
+ g2D)
+
+ batch_normalization_2 (Bat  (None, 14, 14, 32)        128
+ chNormalization)
+
+ flatten (Flatten)           (None, 6272)              0
+
+ dense (Dense)               (None, 128)               802944
+
+ dense_1 (Dense)             (None, 2)                 258
+
+=================================================================
+Total params: 822978 (3.14 MB)
+Trainable params: 822786 (3.14 MB)
+Non-trainable params: 192 (768.00 Byte)
+_________________________________________________________________
+For image: NN\training_dataset_M1\0\SBER-M1-01_02_2022_09_30.png Predicted: [[ 0.04315092 -0.04315083]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_02_2022_17_30.png Predicted: [[-0.82547575 -1.7373412 ]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_02_2023_13_00.png Predicted: [[ 7.872623 -8.17156 ]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_02_2023_17_00.png Predicted: [[ 0.79263306 -1.9614569 ]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_03_2021_14_45.png Predicted: [[ 6.629401 -6.677517]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_03_2021_19_15.png Predicted: [[ 0.6070543 -1.1301085]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_03_2021_23_15.png Predicted: [[11.274467 -8.871752]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_03_2023_12_30.png Predicted: [[ 0.94470906 -6.1563125 ]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_03_2023_16_30.png Predicted: [[ 1.2386224 -3.1029706]] => class=0
+For image: NN\training_dataset_M1\0\SBER-M1-01_04_2020_18_15.png Predicted: [[ 1.3122526 -2.4985654]] => class=0
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2021_11_30.png Predicted: [[-42.80347   10.122395]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2021_15_30.png Predicted: [[-16.909622   8.598994]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2021_20_00.png Predicted: [[-3.6389089  5.5320997]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2022_13_30.png Predicted: [[-0.7527963  0.8117611]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2022_22_00.png Predicted: [[-2.6994631  1.3373568]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_02_2023_21_30.png Predicted: [[-13.452837  15.018032]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_03_2021_10_45.png Predicted: [[-14.911544  11.71355 ]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_03_2023_21_00.png Predicted: [[-5.6905823  4.7750006]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_04_2020_10_15.png Predicted: [[-9.209874  9.895643]] => class=1
+For image: NN\training_dataset_M1\1\SBER-M1-01_04_2020_14_15.png Predicted: [[-32.25011   13.743956]] => class=1
+
+Process finished with exit code 0
